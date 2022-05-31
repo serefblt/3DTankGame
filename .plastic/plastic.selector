@@ -1,0 +1,4 @@
+repository "3DTankGame@left4soul@cloud"
+  path "/"
+    br "/main"
+    co "/main"
