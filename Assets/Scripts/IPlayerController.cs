@@ -2,17 +2,13 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class IPlayerController : MonoBehaviour
+public interface IPlayerController
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    public float HorizontalAxis { get;}
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+    public float VerticalAxis { get;}
+
+    public float HorizontalAxis2 { get; }
+
+    public float VerticalAxis2 { get; }
 }
