@@ -12,4 +12,12 @@ public class Bullet : MonoBehaviour
     {
         _rb.velocity = transform.forward * 15;
     }
+
+    private void OnCollisionEnter(Collision collision)
+    {
+        if (collision.gameObject.CompareTag("zemin"))
+        {
+            Destroy(gameObject);
+        }
+    }
 }
