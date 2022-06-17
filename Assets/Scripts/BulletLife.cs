@@ -5,7 +5,7 @@ using UnityEngine;
 public class BulletLife : MonoBehaviour
 {
     [SerializeField] float _currentTime;
-    [SerializeField] float _destroyTime = 4;
+    [SerializeField] float _destroyTime = 2;
     void Start()
     {
 
